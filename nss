@@ -637,3 +637,150 @@ llmnr what that
 mimikatz -> golden ticket attack ??
 
 testing
+
+====================================================
+PROJECT info
+
+plant 3 deliberate vulns 
+in sucha  waay that the attacker should not be able to find it, and atatcker has to find em,
+
+20th of this month, 5 min class ppt describing what kind of network blah blah blah
+mulitple private nets inside the enterpirse networks, and have one system acting as a bridge to the internet, the firewall
+20th march till 10th of april to create the setup
+
+19th, saturday, day long event 
+on 18th when we submit our ovf to anirudh, we can change shit up again
+19th ko 20 min demo showing what all we tried
+end sem is just 10%
+
+/var/log/messagaes mein cronjobs stuff dalte hian, and zip it up every week or so and save it, purge it later 
+maybe some secret info is hidden in there 
+
+
+CLASS STATSRS HERE 
+PAM - pluggable auth module 
+pam aware apps have a service file in /etc/pam.d/ 
+like /etc/pam.d/su
+cat-ing that file would show .so files, what perms they have blah blah like kaunsi auth minimum reqd, what is preferrred wtc. 
+
+
+general terms, not all used in PAM, pam mein iske kuch components defined hote hain 
+abitrator -> who authes u 
+applicant -> user  
+chain -> defines the sequence in which one will respond to a pam request 
+client -> application which helps the user in applying an auth request 
+facility -> auth, account management, sessions management, auth token updates etc. things which pam does basically 
+module -> functions, binary flies 
+policy -> the set of configs
+service -> 
+
+
+pam config file ki format 
+name of service, facility, required, .so file like login nologin unix lastlog etc., no_warn or no_fail etc stuff which are flags i presume 
+%PAM-1.0
+
+auth      include   system-remote-login
+account   include   system-remote-login
+password  include   system-remote-login
+session   include   system-remote-login
+
+this is mine ☝️
+
+this is what sir said 👇
+
+sshd      auth      required      pam_nologin.so no_warn 
+sshd      auth      required      pam_unix.so    no_warn try_first_pass
+sshd      account   required      ...
+
+bro switched slides rip 
+
+policy is basically a set of chains 
+
+pam_unix.so    no_warn try_first_pass -> this is a chain
+fun fact, can hae multiple .so module files, comma separated 
+
+policy is 4 chains, one for each of the four pam facilities 
+in pam, all options in a chain are executed regardless of a faliure, in case of faliure of any one of them, the request is denied, if no earlier chain has failed either
+binding, alternate of required means that if everything up until now is true, rest need not be checked, allow the request 
+sufficient is same as binding, just leagcy code hai ab useless basically 
+ok no sambot retard moment mild, binding is harder than required, required bas pane aap mein khush rehta, binding mein if upar ka fail huya then angy ho jaata and will ultimately deny access 
+optional -> executed, but resilt is ignored 
+used to like log stuff, the result can just be stored instead of being enforced to deny or allow shit 
+
+the delay after password is not a pam thing btw, woh doosre software ka kaam hai, like ssh
+
+separation of concerns, maybe pam just logs shit and, lets say, ldap handles the password management 
+eg -> PAM + kerberos auth 
+krb5 -> kerberos package
+pam + kerberos -> pam_krb5
+like configure sshd to use kerberos for user auth instead of pam 
+/etc/ssh/ssh_config 
+
+
+pam google auth -> pam_google_authenticator.so
+
+will sambot really leave us in 20 mins 💀
+im betting myself uhh 1 pepsi he will yes hes a good person chhod dega early fr fr 
+
+YOO NEW TOPIC 
+public private cryptography!!!
+
+tf is chinese number theory
+
+https, vpns, require public private cryptography 
+
+CA -> certifying authority, who signed the public private key ka signature, who also has khudke keys 
+
+this shit is a one way secrecy thing, two way nahin chalta, if ppl want to send me smth, they will enc with a public key 
+this is why its called asymmetric cipher, 2 alag channel chahie honge, its a simplex comm not a duplex communication 
+
+theres smth called a trapdoor function (TDF)
+eg -> RSA is a trapdoor, jiska one way fucntion is easy, but the inverse of it is hard 
+
+phi(N) are all numbers which are mutually prime to N 
+
+e*d = a multiple of phi(n) and the remainder has to be 1 -> ed // phi(n) = 1 
+
+
+euler's totient fucntion
+then lagranges theorem 
+then fermats theorem 
+then eulers generalisation of fermats theorem 
+
+chinese remainder theorem mentioned 🔥wtf is that 
+
+LMAO WHAT 
+C L R S
+    |
+-----
+|
+R S A
+
+SAME GUY 
+
+this is restricted to signs, not for all messages, as its a pretty complex and slow process
+
+(K,M,C) -> key, message, ciphertext
+
+pk -> public key, sk -> secret private key 
+
+x_r -> random number 
+hash that to get K 
+encrypt  x with pk to get y 
+
+
+
+OHHH
+OKAY SO 
+ENCRYPT WITH PVT KEY 
+DECRYPT WITH PUB KEY 
+MAKES SENSE NOW LESSGO 
+
+this isnt for payload confidentiality, this is for verifying ki tu wahi hai jo tu claim karra tu hai 
+
+
+
+
+
+
+
