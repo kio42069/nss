@@ -636,4 +636,4 @@ llmnr what that
 
 mimikatz -> golden ticket attack ??
 
-
+testing
