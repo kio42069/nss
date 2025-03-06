@@ -779,6 +779,58 @@ MAKES SENSE NOW LESSGO
 this isnt for payload confidentiality, this is for verifying ki tu wahi hai jo tu claim karra tu hai 
 
 
+============================
+lecture idek what at this point 
+
+
+
+so asymmetric is used mostly for auth of the person who sent the message than for safety
+
+e and d are multiplication inverses of each other in a number system of N 
+
+m to the power e -> ciphertext
+(m^e)^d  = m^ed ko enc karo 
+
+
+gpg implements pgp 
+used in encrypting mail bodies and signging mails
+smtp for sending, pop3 or imap for recieving 
+
+gmail is a web interface imple these 
+outlook is an smtp client 
+google uses imap and smtp servers ips, can use these for mail user agents like outlook or thunderbird
+outlook is msft, thunderbird is mozilla 
+
+key servers -> mit maintains a couple 
+create gpg keys, unpload the public key on the mit server, where ppl can import it 
+
+
+oo this is useful in key exchange 
+
+atleast one of the two public keys needs to be trusted (its not tampered) only then secured rahega and will work
+
+
+diffie hellman protocol for key exchange 
+discrete log assumption property
+
+from g^a is easy, ath root of g is computationally hard 
+from g^a modp and g^b modp it cant get g^ab
+
+oye ye man in the middle toh crazy ho gaya
+both parties think they are safely comming
+but actually they are separately comming with charlie
+
+unkonwn domain name ka ip ka cert geenrate karne ke liye canoncal representation use hoga 
+
+htons??? h to ns 
+big endian order
+wtf is little endian
+
+highber byte higher order higher register is big endian 
+phishing not possible now cos if domain anme does not match ur 
+
+
+
 
 
 
