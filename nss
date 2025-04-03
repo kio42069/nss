@@ -835,4 +835,21 @@ phishing not possible now cos if domain anme does not match ur
 
 
 
+==================================
+buffer overflow lectire
+
+
+mitre framework??
+
+code
+stack -> local vars, function addrs 
+data -> global vars, unintialised
+heap -> dynamic memory malloc waale
+bss -> static vars, statically initialised vars 
+rodata -> read only data, for eg string vars 
+
+selector:offset 
+
+
+stack pointer doesnt move while writing local vars, it just moves while pushing or popping func calls and reutrns 
 
