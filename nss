@@ -851,5 +851,6 @@ rodata -> read only data, for eg string vars
 selector:offset 
 
 
+
 stack pointer doesnt move while writing local vars, it just moves while pushing or popping func calls and reutrns 
 
