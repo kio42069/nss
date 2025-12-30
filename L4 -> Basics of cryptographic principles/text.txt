@@ -1,0 +1,5 @@
+Suggested Readings:
+Network Security: Private Communication in a Public World, Second Edition
+by Mike Speciner, Radia Perlman, Charlie Kaufman.
+
+Chapters: 1-4

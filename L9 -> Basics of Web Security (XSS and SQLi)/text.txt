@@ -1,0 +1,13 @@
+Readings/references:
+https://owasp.org/www-project-web-security-testing-guide/stable/
+https://owasp.org/www-community/attacks/SQL_Injection
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+https://www.w3schools.com/sql/sql_injection.asp
+https://portswigger.net/web-security/sql-injection
+
+https://portswigger.net/burp
+
+https://pwning.owasp-juice.shop/
+https://owasp.org/www-community/attacks/SQL_Injection
+https://owasp.org/www-community/attacks/xss/
+https://owasp.org/www-community/attacks/csrf

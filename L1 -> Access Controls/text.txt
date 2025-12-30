@@ -1,0 +1,44 @@
+The Craft of Systems Security, Sean Smith and John Marchesini, Addison-Wesley, 2007, ISBN 0-321 43483-8 (Acronym used CSS): Chapter 1,2 and 3
+Computer Security: Principles and Practices (2nd Edition), W. Stallings and L. Browne, 2011, ISBN-13: 978-0132775069 (Acronym used CSPP): Chapter 4
+
+https://bencane.com/2012/05/27/acl-using-access-control-lists-on-linux/
+https://www.cyberciti.biz/faq/unix-bsd-linux-setuid-file/
+https://linuxconfig.org/how-to-use-special-permissions-the-setuid-setgid-and-sticky-bits
+https://linuxconfig.org/how-to-manage-acls-on-linux
+https://https://wiki.gentoo.org/wiki/SELinux/Tutorials
+
+Good article on internals of ACLs(getfacl and setfacl) work in linux
+https://www.usenix.org/legacy/publications/library/proceedings/usenix03/tech/freenix03/full_papers/gruenbacher/gruenbacher_html/main.html
+
+https://selinuxproject.org/page/Main_Page
+
+
+https://www.cyberciti.biz/tips/linux-iptables-examples.html
+
+https://help.ubuntu.com/community/IptablesHowTo
+https://www.garron.me/en/linux/iptables-manual.html
+https://netfilter.org/documentation/HOWTO//networking-concepts-HOWTO.txt
+https://netfilter.org/documentation/HOWTO//NAT-HOWTO.txt
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/getting-started-with-nftables_configuring-and-managing-networking
+https://wiki.nftables.org/wiki-nftables/index.php/Main_Page
+https://medium.com/information-and-technology/so-what-is-apparmor-64d7ae211ed
+https://linuxhint.com/debian_apparmor_tutorial/
+
+
+
+Old but easy to follow link to get a decent understanding of firewalls:
+http://www.tldp.org/HOWTO/Firewall-HOWTO.html
+
+
+FreeBSD pf firewall:
+https://docs.freebsd.org/en/books/handbook/firewalls/
+
+https://www.freebsd.org/cgi/man.cgi?pf.conf
+
+https://www.freebsd.org/cgi/man.cgi?query=pfil&sektion=9
+
+
+Writing FreeBSD kernel modules:
+Designing BSD Rootkits (attached)
+
+    Chapter 1 and 2.

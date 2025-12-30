@@ -1,0 +1,31 @@
+Readings:
+Smashing the Stack for Fun and Profit, Aleph One
+http://insecure.org/stf/smashstack.html
+
+
+
+AMD64 Linux calling conventions (Appendix A.2): http://www.x86-64.org/documentation/abi.pdf
+
+
+Writing shellcode (using NASM):
+http://tfairane.com/archives/Unix.x86_64.shellcode.pdf
+
+
+GDB quick reference:
+http://users.ece.utexas.edu/~adnan/gdb-refcard.pdf
+
+
+Return to libc
+http://www.exploit-db.com/wp-content/themes/exploit/docs/28553.pdf
+
+http://www.cis.syr.edu/~wedu/seed/Labs/Vulnerability/Return_to_libc/Return_to_libc.pdf
+https://cseweb.ucsd.edu/~hovav/dist/rop.pdf
+
+Basics of Metasploit:
+https://docs.rapid7.com/metasploit/metasploit-basics/
+
+Exploit-db:
+https://www.exploit-db.com/
+
+MSFvenom:
+https://www.offensive-security.com/metasploit-unleashed/msfvenom/

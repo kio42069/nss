@@ -1,0 +1,16 @@
+https://datatracker.ietf.org/doc/html/rfc5996
+
+https://datatracker.ietf.org/doc/html/rfc6071
+
+
+Network Security: Private Communication in a Public World (2nd Edition). C. Kaufman , R. Perlman -
+CH. 16, 17 and 18
+
+https://wiki.archlinux.org/title/OpenVPN
+
+https://www.wireguard.com/papers/wireguard.pdf
+https://www.wireguard.com/papers/lipp-computational-2018.pdf
+
+
+https://github.com/OpenVPN/openvpn
+https://www.usenix.org/system/files/sec22-xue-diwen.pdf

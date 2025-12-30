@@ -1,0 +1,27 @@
+Suggested readings:
+
+Network Security: Private Communication in a Public World (2nd Edition). C. Kaufman , R. Perlman -
+CH. 6, 23 and 14
+
+Cryptograph: Theory and Practice (CRC Press, 2019) - D. R. Stinson and M. B. Paterson  (attached)
+CH: 6,7,8
+
+
+SSLv3 RFC:
+https://tools.ietf.org/html/rfc6101
+
+TLS1.2 RFC:
+https://tools.ietf.org/html/rfc5246
+
+TLS 1.3 RFC
+https://tools.ietf.org/html/rfc8446
+
+Encrypted SNI IETF Draft:
+https://tools.ietf.org/html/draft-ietf-tls-esni-01
+
+DNS of TLS/DNS over HTTPS:
+https://datatracker.ietf.org/doc/html/rfc7858
+https://datatracker.ietf.org/doc/html/rfc8484
+
+QUIC:
+https://datatracker.ietf.org/doc/html/rfc9000

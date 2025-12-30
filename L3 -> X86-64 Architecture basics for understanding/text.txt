@@ -1,0 +1,33 @@
+Basics of x86-64 architecture: 
+https://web.stanford.edu/class/cs107/guide/x86-64.html
+https://www.cs.nmsu.edu/~jcook/posts/basic-x86-64-assembly/
+https://memorialu.gitlab.io/Engineering/ECE/Teaching/operating-systems/website/reference/x86/
+https://gaultier.github.io/blog/x11_x64.html
+https://cs.wellesley.edu/~cs240/f20/slides/x86-basics.pdf
+
+
+NASM assembler:
+https://cs.lmu.edu/~ray/notes/nasmtutorial/
+https://github.com/0xAX/asm?tab=readme-ov-file
+https://nasm.us/
+https://en.wikibooks.org/wiki/X86_Assembly/NASM_Syntax
+https://cs.lmu.edu/~ray/notes/nasmtutorial/
+https://www.devdungeon.com/content/hello-world-nasm-assembler
+https://asmtutor.com/
+
+GAS (Gnu AS) assembler:
+https://cs.lmu.edu/~ray/notes/gasexamples/
+https://en.wikibooks.org/wiki/X86_Assembly/GAS_Syntax
+https://wiki.osdev.org/GAS
+https://sourceware.org/binutils/docs/as/
+
+AMD64/X86-64 Software developer's manual:
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+
+AMD64/X86_64 Linux calling conventions (Appendix A.2): http://www.x86-64.org/documentation/abi.pdf
+GDB quick reference: http://users.ece.utexas.edu/~adnan/gdb-refcard.pdf
+
+
+Mixing C and assembly:
+https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2012/xg46_jy363/xg46_jy363/Reference/Mixing%20C%20and%20assembly%20language%20programs.pdf
+https://www.cs.cmu.edu/~guna/15-123S11/Lectures/Lecture27.pdf

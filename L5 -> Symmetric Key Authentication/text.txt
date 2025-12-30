@@ -1,0 +1,40 @@
+Suggested readings:
+
+Network Security: Private Communication in a Public World (2nd Edition). C. Kaufman , R. Perlman -
+CH. 2.1 - 2.4, 3.1 - 3.3, 4.1 - 4.3, 5.1, 5.2,5.7
+CH. 6, 7, 10, 13, 14
+
+https://www.redhat.com/sysadmin/pluggable-authentication-modules-pam
+https://medium.com/@avirzayev/linux-pam-how-to-create-an-authentication-module-cc132115bdc5
+http://uw714doc.sco.com/en/SEC_pam/pamintro.html
+https://docs.freebsd.org/en/articles/pam/
+
+
+Kerberos RFC:
+https://tools.ietf.org/html/rfc4120
+
+Microsoft Active Directory:
+https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+https://medium.com/@kawsaruddin238/active-directory-basics-tryhackme-548e4cb6e7fb
+
+https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+https://rootdse.org/posts/active-directory-basics-1/
+https://www.hackthebox.com/blog/active-directory-penetration-testing-cheatsheet-and-guide
+https://adsecurity.org/?page_id=41
+https://adsecurity.org/?page_id=4031
+https://adsecurity.org/?page_id=1821
+https://blog.ropnop.com/using-credentials-to-own-windows-boxes-part-2-psexec-and-services/
+https://pwn.no0.be/exploitation/windows/rce/psexec/
+https://bond-o.medium.com/crackmapexec-basics-839ef6180940
+https://sencode.co.uk/glossary/crackmapexec/#:~:text=CrackMapExec%20leverages%20SMB%20(Server%20Message,useful%20information%20from%20networked%20machines.
+https://www.ivoidwarranties.tech/posts/pentesting-tuts/cme/crackmapexec/
+https://www.netwrix.com/cracking_kerberos_tgs_tickets_using_kerberoasting.html
+https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberoast
+https://www.picussecurity.com/resource/blog/kerberoasting-attack-explained-mitre-attack-t1558.003
+
+Pluggable Authentication Module:
+https://docs.freebsd.org/en/articles/pam/
+https://www.redhat.com/en/blog/pluggable-authentication-modules-pam
+https://medium.com/@avirzayev/linux-pam-how-to-create-an-authentication-module-cc132115bdc5
+https://github.com/fedetask/pam-tutorials
+http://uw714doc.sco.com/en/SEC_pam/pamintro.html

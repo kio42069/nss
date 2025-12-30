@@ -1,0 +1,17 @@
+https://securitytrails.com/blog/nmap-vulnerability-scan
+
+https://isc.sans.edu/forums/diary/Using+Nmap+As+a+Lightweight+Vulnerability+Scanner/26098/
+
+
+https://hakin9.org/vulscan-advanced-vulnerability-scanning-with-nmap-nse/
+https://zmap.io/
+
+https://www.offsec.com/metasploit-unleashed/msfconsole/
+https://securitytrails.com/blog/theharvester-tool
+https://www.kali.org/tools/dirbuster/
+https://github.com/sullo/nikto
+https://crt.sh/
+https://www.kali.org/tools/arp-scan/
+
+https://github.com/LionSec/katoolin
+https://github.com/preemware/blacktoolin
